@@ -1,0 +1,37 @@
+{
+  "name": "@CLI/create-project",
+  "version": "1.0.0",
+  "description": "CLI for BookLight",
+  "main": "src/index.js",
+  "bin": {
+    "@CLI/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaenwawe/BookLight.git"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaenwawe/BookLight/issues"
+  },
+  "homepage": "https://github.com/jaenwawe/BookLight#readme",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "chalk": "^4.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.1.0",
+    "ncp": "^2.0.0"
+  }
+}
